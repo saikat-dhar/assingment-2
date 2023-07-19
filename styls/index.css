@@ -2,7 +2,13 @@
     font-family: Work Sans;
     max-width: 1440px;
 }
+/* shaerd-style */
 
+.banner-description {
+    color: #534C64;
+    font-size: 1rem;
+
+}
 
 
 /* this is header-section */
@@ -87,18 +93,17 @@ nav h3 {
     font-weight: 600;
     margin-bottom: 60px;
 }
-.banner-description{
-    color: #534C64;
-    font-size: 1rem;
-    
-}
-.btn-primary{
+
+
+
+.btn-primary {
     background-color: #FF42A5;
     padding: 10px 20px;
     border-radius: 15px;
     border: none;
 }
-.btn-secendary{
+
+.btn-secendary {
     background-color: #4EC5F7;
     padding: 10px 20px;
     border-radius: 15px;
@@ -107,33 +112,36 @@ nav h3 {
 
 /* gamer-styles */
 
-.gamer-container{
+.gamer-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 60px;
 }
-.gamer-img{
-   width: 750px;
-   height: 500px;
+
+.gamer-img {
+    width: 750px;
+    height: 500px;
 }
-.gamer-title{
+
+.gamer-title {
     font-size: 2.8rem;
     font-weight: 600;
     color: #8758F1;
 }
-.gamer-foot{
-   font-size: 1.5rem;
-   color: #534C64;
+
+.gamer-foot {
+    font-size: 1.5rem;
+    color: #534C64;
 }
 
-.gamer-content{
+.gamer-content {
     text-align: right;
     padding-right: 60px;
 }
 
 /* card-styls */
-.card-img-container{
+.card-img-container {
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -141,27 +149,63 @@ nav h3 {
     border-radius: 8px;
 }
 
-.card-img{
+.card-img {
     width: 300px;
     height: 330px;
 }
 
-.card-content{
+.card-content {
     text-align: center;
 }
-.card-content h3{
+
+.card-content h3 {
     font-size: 2.25rem;
 }
 
-.card-title{
+.card-title {
     color: #8758F1;
 }
 
 
 /* mid-styls */
-
-.mid-container{
+.play-game-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 50px 240px;
+    background-color: beige;
+    margin: 0px auto;
+}
+.play-game-container h3{
+    font-size: 2.5rem;
+}
+.play-img{
+    width: 300px;
+    height: 300px;
+}
+.play-img-two{
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    position: relative;
+    bottom: 30px;
+    right: 60px;
+}
+.play-title{
+    color: #FF42A5;
+}
+
+
+
+/* this-is last-section */
+
+.last-content{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 240px;
+    align-items: center;
+
+}
+.last-content-img{
+    width: 60px;
 }
