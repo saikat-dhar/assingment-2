@@ -295,8 +295,7 @@ margin: 10px 540px;
     .banner-container,
     .gamer-container , .card-img-container,
     .play-game-container, .footer-item,
-    .footer-head, .last-content,
-    .last-content-2, .last-container, .lsat-container-2
+    .footer-head, footer
     {
         flex-direction: column;
     }
