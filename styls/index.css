@@ -258,8 +258,9 @@ nav h3 {
 
 /* footer-section */
 footer{
-    background-color: black;
+    background:  #0B0223;
     color: #FFF;
+    
 }
 .footer-head{
     display: flex;
@@ -278,6 +279,13 @@ a img{
     width: 20px;
     height: 20px;
 }
+.footer-link{
+    display: flex;
+margin: 10px 540px;
+}
+.footer-link > a{
+    gap: 20px;
+}
 
 /* responsive-style */
 @media screen and (max-width: 576px) {
@@ -286,7 +294,10 @@ a img{
     .nav-div,
     .banner-container,
     .gamer-container , .card-img-container,
-    .play-game-container{
+    .play-game-container, .footer-item,
+    .footer-head, .last-content,
+    .last-content-2, .last-container, .lsat-container-2
+    {
         flex-direction: column;
     }
 
